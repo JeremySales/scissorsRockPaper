@@ -1,0 +1,41 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+.scoreBoard, .choices, .resultSpot {
+     display: flex;
+     justify-content: center;
+     font-size: 1rem;
+     padding: 20px;
+}
+
+.scoreBoard {
+     justify-content: space-around;
+}
+
+.resultSpot {
+     font-size: 3rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

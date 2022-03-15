@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Scissors, Rock, Paper">
+    	<meta name="keywords" content="Scissors, Rock, Paper">
+
+		<title>Scissors, Rock, Paper</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+<body>
+    <section class="choices">
+        <form action="#">
+            <input type="button" value="scissors"></input>
+            <input type ="button" value="rock"></input>
+            <input type="button" value="paper"></input>
+        </form>
+        
+    </section>
+    <section class="scoreBoard">
+        <h2 class="score-info" id="scoreInfo">Score</h2>
+        <div class="scores-container">
+            <div class="score">
+                <p id="playerScore">Player: 0</p>
+            </div>
+            <div class="score">
+                <p id="cpuScore">CPU: 0</p>
+               </div>
+        </div>
+    </section>
+    <section class="resultSpot">
+        <span id="result"></span>
+    </section>
+        
+
+    
+<script src="rps.js"></script>
+</body>
+</html>
